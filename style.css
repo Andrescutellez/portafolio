@@ -168,7 +168,8 @@ h1, h2, h3, .logo {
     .header__info {
         padding-top: 120px;
         height: 100vh;
-        background: var(--secondary-bg-color);
+        background: rgba(10, 10, 10, 0.95);
+        backdrop-filter: blur(10px);
         width: 100%;
         position: absolute;
         top: 0;
@@ -584,4 +585,4 @@ footer {
 
 .project-btn:hover {
     transform: translateY(-2px);
-}
+}   

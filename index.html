@@ -484,6 +484,9 @@
 
     function scrollToSection(sectionId){
         document.getElementById(sectionId).scrollIntoView({behavior:"smooth"})
+
+        // cerrar menú
+    document.querySelector('.checkbox').checked = false;
     }
 </script>
 
