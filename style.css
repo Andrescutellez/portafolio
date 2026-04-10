@@ -169,7 +169,7 @@ h1, h2, h3, .logo {
         padding-top: 120px;
         height: 100vh;
         background: rgba(10, 10, 10, 0.95);
-        backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);    
         width: 100%;
         position: absolute;
         top: 0;
@@ -586,3 +586,17 @@ footer {
 .project-btn:hover {
     transform: translateY(-2px);
 }   
+
+@media (max-width: 768px) {
+
+    .project__card .overlay {
+        opacity: 1;
+    }
+
+    .project__card .project__info {
+        top: 50%;
+        opacity: 1;
+        pointer-events: unset;
+    }
+
+}
